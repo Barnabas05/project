@@ -1,37 +1,34 @@
+//---------------------------------------------------------------------------------------------this function alerts 1 word-------------------------------------------------------------------------------------------
 
 
-//--------------------------------this function alerts 1 word-----------------------------------
-
-
-/*function randomWord() {
-    
+function randomWord() {
+    alert("random word")
 }
-
-let num1 =  document.getElementById(num1);
-let num2 = document.getElementById(num2);
+randomWord()
 
 
 
-//------------------------this function sums 2 numbers----------------------------------------- 
 
-function sum () {
-    let value = num1 + num2;
-    alert(value)
+//---------------------------------------------------------------------------------------------this function sums 2 numbers------------------------------------------------------------------------------------------
+
+
+let number1 = parseFloat(prompt("enter a number to sum"))
+let number2 = parseFloat(prompt("enter a number to sum"))
+function sum ( num1 , num2) {
+    let value = num1 + num2
+    alert(num1 +  " + " + num2 + " = " + value )
 }
-sum()
-*/
+sum(number1 , number2)
 
 
 
 
-//-------------------------this function returns the square of a number-------------------------
+//--------------------------------------------------------------------------------------this function returns the square of a number---------------------------------------------------------------------------------
 
-
-// This function works well 
 
 function square() {
-    let number = prompt("enter a number")
+    let number = prompt("enter a number to raise to the square")
     let sqNum = number * number
-    alert(sqNum)
+    alert(number + "² = " + sqNum)
 }
 square()
