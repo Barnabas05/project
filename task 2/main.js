@@ -5,7 +5,12 @@ for (let i = 0; i < 100; i++) {
    console.count("")
 }
 
+
+
+
 //------------------------------------------------------------------------------------this for loop counts as long as the user specified-----------------------------------------------------------------------------
+
+
 let num = parseFloat(prompt("add a number for count"))
 
 for (let i = 0; i < num; i++) {
