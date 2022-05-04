@@ -2,7 +2,7 @@
 
 
 for (let i = 0; i < 100; i++) {
-   console.count("")
+   console.log(i + 1);
 }
 
 
@@ -14,5 +14,5 @@ for (let i = 0; i < 100; i++) {
 let num = parseFloat(prompt("add a number for count"))
 
 for (let i = 0; i < num; i++) {
-       console.count("")
+       console.log(i+1);
 }
